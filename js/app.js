@@ -38,6 +38,7 @@ switch (secondQuestion){
 
 let thirdQuestion= prompt('do I like to read Books?');
 thirdQuestion.toLowerCase;
+ //console.log(thirdQuestion);
 switch(thirdQuestion){
     case 'yes':
     case 'y':
@@ -52,7 +53,8 @@ switch(thirdQuestion){
 }
 
 let forthQuestion=prompt('Am I using Windows?');
-
+forthQuestion.toLowerCase;
+ //console.log(forthQuestion);
 switch(forthQuestion){
     case 'yes':
     case 'y':
@@ -67,6 +69,8 @@ switch(forthQuestion){
 }
 
 let fifthQuestion=prompt('Do I use BING as a search engine?');
+fifthQuestion.toLowerCase;
+ //console.log(fifthQuestion);
 switch(fifthQuestion){
     case 'yes':
     case 'y':

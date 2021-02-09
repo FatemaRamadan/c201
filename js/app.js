@@ -95,13 +95,16 @@ let sixthQuestion = prompt('Let\'s play a game ! I want you to guess a number, i
 sixthQuestion = Number(sixthQuestion);
 console.log(sixthQuestion);
 if (sixthQuestion < 3) {
-    alert('wrong answer you have 4 try');
+    alert('Too Low ,Remember you have 4 tries now');
     for (let i = 0; i < 4; i++) {
-        alert('too low');
         if (sixthQuestion == 3) {
             alert('correct');
-        } else {
-            sixthQuestion = prompt('try again');
+            score++;
+            break;
+        } else if(sixthQuestion <3) {
+            sixthQuestion = prompt('try again number is too low ');
+        }else if (sixthQuestion >3) {
+            sixthQuestion = prompt('Too High');
         }
     }
 }
@@ -110,27 +113,29 @@ else if (sixthQuestion > 3) {
     for (let i = 0; i < 4; i++) {
         if (sixthQuestion == 3) {
             alert('correct');
-        } else {
-            sixthQuestion = prompt('try again');
+            score++;
+        } else if (sixthQuestion >3){
+            sixthQuestion = prompt('Number is High try again');
+        }else if(sixthQuestion <3){
+            sixthQuestion=prompt('Number is Low');
         }
 
-    }
+    }alert('The correct answer is 3');
 }
-alert('correct aswer is 3');
 
 
-let color = ['red','blue','gree','yellow'];
-let guess = prompt('whats y faourite colot?red blue yellow?');
+
+let color = ['red','blue','green','yellow'];
+let guess = prompt('whats my faourite colore is it : blue, red ,green or  yellow?');
 for(let i=0;i<6;i++){
     if(guess === 'red'){
         alert('correct');
-        score ++;
+        score++;
         break;
     }else {
-        alert('tryagain');
-        guess=prompt('guess again');
+        guess=prompt('Try again pleas Wrong answer');
+
     }
-    
     }
     alert('you have scored '+ score);
 

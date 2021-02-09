@@ -28,3 +28,12 @@ ul{
 footer{
     text-align: center;
 }
+h4{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30px;
+}
+ol{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

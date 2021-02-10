@@ -1,9 +1,11 @@
 'use strict';
 let score = 0;
+
 let userName = prompt('What\'s Your Name ?');
 console.log(typeof userName);
 alert('welcome  ' + userName);
 
+function question1(){
 let userMajor = prompt('Am I in an IT major?');
 switch (userMajor) {
     case 'yes':
@@ -19,7 +21,10 @@ switch (userMajor) {
     default:
         alert('pleas enter Lower case onley');
 }
+}
+question1();
 
+function question2(){
 let secondQuestion = prompt('Am I currntly an employee?');
 secondQuestion.toLowerCase;
 switch (secondQuestion) {
@@ -37,7 +42,10 @@ switch (secondQuestion) {
     default:
         alert('pleas enter Lower case onley');
 }
+}
+question2();
 
+function question3(){
 let thirdQuestion = prompt('do I like to read Books?');
 thirdQuestion.toLowerCase;
 //console.log(thirdQuestion);
@@ -54,7 +62,9 @@ switch (thirdQuestion) {
     default:
         alert('pleas enter Lower case onley');
 }
-
+}
+question3();
+function question4(){
 let forthQuestion = prompt('Am I using Windows?');
 forthQuestion.toLowerCase;
 //console.log(forthQuestion);
@@ -71,6 +81,9 @@ switch (forthQuestion) {
     default:
         alert('pleas enter Lower case onley');
 }
+}
+question4();
+// is this good?
 
 let fifthQuestion = prompt('Do I use BING as a search engine?');
 fifthQuestion.toLowerCase;
@@ -126,16 +139,29 @@ else if (sixthQuestion > 3) {
 
 
 let color = ['red','blue','green','yellow'];
-let guess = prompt('whats my faourite colore is it : blue, red ,green or  yellow?');
-for(let i=0;i<6;i++){
-    if(guess === 'red'){
-        alert('correct');
-        score++;
-        break;
-    }else {
-        guess=prompt('Try again pleas Wrong answer');
 
-    }
-    }
-    alert('you have scored '+ score);
+for(let i=0;i<6;i++){
+    let guess = prompt('whats my faourite colore is it  ?');
+       for ( let y =0 ;y<= color.length;y++){
+
+        if (guess==color[y]){
+            alert('correct');
+            i=7;
+            score++
+            break;
+        }
+       }
+
+ }   
+ alert (`my favorite colors are `+color);   
+    // if(guess === 'red'){
+    //     alert('correct');
+    //     score++;
+    //     break;
+    // }else {
+    //     guess=prompt('Try again pleas Wrong answer');
+
+    // }
+    // }
+    // alert('you have scored '+ score);
 

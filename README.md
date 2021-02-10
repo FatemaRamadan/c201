@@ -2,6 +2,13 @@
 ### Project Name:* Gussing Game* 
 
 
+I was Navigator on: (https://github.com/FatemaRamadan/c201)
+I was Driver on: (https://github.com/BayanKhalil/class2-201)
+
+i worked with bayan
+
+the code part she ficed for me was the 7th question in apps.js 
+## she helped me fix 
 This web page is for practise I made it to try out the switch statment and inclding file .
 
 

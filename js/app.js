@@ -84,7 +84,7 @@ switch (forthQuestion) {
 }
 question4();
 // is this good?
-
+function question5(){
 let fifthQuestion = prompt('Do I use BING as a search engine?');
 fifthQuestion.toLowerCase;
 //console.log(fifthQuestion);
@@ -102,8 +102,9 @@ switch (fifthQuestion) {
 }
 
 alert('Thank You  ' + userName);
-
-
+}
+question5();
+function question6(){
 let sixthQuestion = prompt('Let\'s play a game ! I want you to guess a number, if you guessed right you win, if you didn\'t..... rembermber you have 4 trials!!');
 sixthQuestion = Number(sixthQuestion);
 console.log(sixthQuestion);
@@ -135,9 +136,11 @@ else if (sixthQuestion > 3) {
 
     }alert('The correct answer is 3');
 }
+}
 
+question6();
 
-
+function question7(){
 let color = ['red','blue','green','yellow'];
 
 for(let i=0;i<6;i++){
@@ -153,7 +156,9 @@ for(let i=0;i<6;i++){
        }
 
  }   
- alert (`my favorite colors are `+color);   
+ alert (`my favorite colors are `+color); 
+}
+question7();  
     // if(guess === 'red'){
     //     alert('correct');
     //     score++;

@@ -1,39 +1,54 @@
+
 body{
   background-color: rgb(176, 225, 245);
-   
+ 
 }
 h1{
+    position:sticky;
+    padding-left: 30px;
+    width: 1000px;
+    border: 100px solid rgb(191, 221, 238);
+    padding: 70px;
+    margin: 20px;
+    background-color:#4ea2bf;
     color:rgb(9, 64, 90);
     text-align: center;
     font-size:60px;
 }
 h2{
+    position:static;
     font-size: 40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 30px;
+    margin-left: 10px;
+    padding:20 px;
 }
 h3{
     font-size: 40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 p{
+    background-color:#73c2ff ;
     font-size:20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 ul{
+    background-color:#73c2ff ;
     font-size: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 footer{
-    text-align: center;
+    background-image: url('img/booksback.jpg');
+        text-align: center;
+    position: sticky;
 }
 h4{
     font-size: 40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 ol{
+    background-color:#73c2ff ;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

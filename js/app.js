@@ -114,6 +114,11 @@ function question6(){
         }
     else if (questionSix < answer ){
         alert('Too Low')
+    }else{
+        alert('pleas input a number ');
+    }
+    if (i == 3){
+        alert('The correct Number is 3!!');
     }
     }
 }
